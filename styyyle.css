@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+}
+ r: 5px;
+        fo footer{
+    position: relative;
+    margin-top: 100px;
+    top: 500px;
+    left: 70px;
+}
+  footer section{
+    display: flex;
+    justify-content: center
+  }
+  footer section .one{
+    padding: 50px 30px 50px 0px;
+  }
+  footer section .one .one1{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  footer section .one .one1 i{
+    padding-right: 10px;
+  }
+  footer section a{
+    text-decoration: none;
+    color: #373737;
+    display: block;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    
+  }
+  footer section h3{
+    color:#252B42 ;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+  }
+  footer .end{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aaaaaa;
+    height: 74px;
+    padding: 25px 0 25px 0;
+    font-size: 14px;
+  }
+  footer .end p{
+    position: relative;
+    top: 25px;
+    color:#373737 ;
+  }
+  footer .end i{
+    position: relative;
+    top: 25px;
+  }
+
+@media screen and 
+(max-width: 800px)
+{
+    .button button{
+        width: 100px;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        margin-right: 20px;
+        bordent-size: 10px;
+    
+}
+.sec2{
+    justify-content: center;
+}
+.sec1{
+    justify-content: center;
+}
+.para{
+    position: relative;
+    right: 50px;
+}
+
+}

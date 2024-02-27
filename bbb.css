@@ -1,0 +1,559 @@
+.text-center{
+  justify-content: center;
+}
+.button{
+  justify-content: center;
+}
+.sec2 h1{
+  color: white;
+}
+.button button{
+  width: 150px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 20px;
+  border: 5px;
+}
+.button{
+  position: relative;
+  top: 24px;
+  
+}
+.button-img{
+  margin-top: 120px;
+    width: 300px;
+    border-radius: 25px;
+}
+button:hover{
+background-color: black;
+color: white;
+transform: scale(1) ;
+transition: 0.5s;
+}
+.sec1{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 170px;
+  margin-bottom: 250px;
+}
+.sec1 img {
+  width: 600px;
+}
+.para h1{
+  color: white;
+}
+.para p{
+  color:  wheat;
+}
+.navbar {
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: space-between;
+  background-color:■#fff;
+  padding:15px;
+  padding-bottom: 90px;
+  margin-bottom: 120px;
+}
+.navbar a{
+    text-decoration:none;
+    color: inherit;
+}
+li a:hover{
+  transform: scale(1.2);
+  color:white ;
+  text-decoration: none;
+}
+.logo{
+  margin-right: 100px;
+  width: 150px;
+}
+.list{
+  list-style: none;
+display: flex;
+gap: 25px;
+}
+li{
+  margin-right: 20px;
+}
+.navbar label{
+  display: none;
+  } 
+  .slide-show{
+    position: relative;
+    top: 130px;
+    margin-top: 130px;
+  }
+.text-center{
+    justify-content: center;
+  }
+  .button{
+    justify-content: center;
+  }
+  
+.slide-show h1{
+    margin-bottom: 15px;
+}
+.slide-show img{
+    width: 600px;
+    height: 300px;
+    border-radius: 100px;
+}
+.slide-button{
+    display: flex;
+    justify-content: center;
+}
+.slide-img{
+    display: flex;
+    justify-content: center;
+}
+.slide-button button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+border: none;
+    width: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.slide-button button:hover{
+    background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+transform: scale(1) ;
+transition: 0.5s;
+}
+.sec3 img{
+  width: 250px;
+  border-radius: 25px;
+}
+
+.sec3-one{
+  padding: 50px 0px 0px 50px;
+}
+.sec3{
+  margin: 40px 0px 0px 40px;
+  margin-top: 380px;
+}
+.sec3-one h3{
+  color: white;
+}
+
+.rims-p{
+
+padding-right: 100px;
+  padding-top: 65px;
+}
+.sec3 button{
+  margin-top: 10px;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: dimgrey;
+}
+.sec3 p{
+  margin-top: 10px;
+  color: white;
+}
+.partion{
+  margin-top: 40px;
+}
+.partion img{
+  width: 250px;
+}
+
+footer{
+  position: relative;
+  margin-top: 100px;
+  padding-left: 200px;
+}
+footer section{
+  display: flex;
+  justify-content: center
+}
+footer section .one{
+  padding: 50px 30px 50px 0px;
+}
+footer section .one .one1{
+  display: flex;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+footer section .one .one1 i{
+  padding-right: 10px;
+}
+footer section a{
+  text-decoration: none;
+  color: #373737;
+  display: block;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  
+}
+footer section h3{
+  color:#252B42 ;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+footer .end{
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aaaaaa;
+  height: 74px;
+  padding: 25px 0 25px 0;
+  font-size: 14px;
+}
+footer .end p{
+  position: relative;
+  top: 25px;
+  color:#373737 ;
+}
+footer .end i{
+  position: relative;
+  top: 25px;
+}
+@media screen and 
+(max-width: 320px){
+  .img-center{
+    width: 450px;
+  }
+}
+@media screen and 
+(max-width: 320px){
+  div .list li a{
+    position: relative;
+left: 300px;
+bottom: 27px;
+  }
+  .para h1{
+    position: relative;
+  left: 70px;
+  }
+  .para p{
+    font-size: 12px;
+    position: relative;
+    left: 70px;
+  }
+  .logo{
+    width: 100px;
+  }
+}
+@media screen and 
+(max-width: 375px){
+  div .list li a{
+    position: relative;
+left: 300px;
+bottom: 27px;
+  }
+  .para h1{
+    position: relative;
+  left: 45px;
+  }
+  .para p{
+    font-size: 12px;
+    position: relative;
+    left: 45px;
+  }
+  .logo{
+    width: 100px;
+  }
+}
+@media screen and 
+(max-width: 425px){
+  div .list li a{
+    position: relative;
+left: 300px;
+bottom: 27px;
+  }
+  .para h1{
+    position: relative;
+  left: 20px;
+  }
+  .para p{
+    font-size: 12px;
+    position: relative;
+    left: 20px;
+  }
+  .logo{
+    width: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and 
+(max-width: 525px){
+  nav a{
+    font-size:12px ;
+  }
+  .logo{
+    width: 100px;
+    
+  }
+  .list{
+    list-style: none;
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+  }
+  li{
+    margin-right: 10px;
+  }
+  .img-center{
+    width: 100px;
+  }
+  .para h1{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .para {
+    text-align: center;
+    padding-top: 20px;
+    padding-right:5px;
+  }
+  
+  .button button{
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    border: 5px;
+    font-size: 10px;
+  }
+  .button button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1) ;
+    transition: 0.5s;
+    }
+    .my
+    .slide-show{
+      position: relative;
+      top: 30px;
+      margin-top: 100px;
+      
+    }
+.myslide{
+  
+width: 400px;
+height: 200px;
+border-radius: 70px;
+}
+  .sec3{
+    justify-content: space-around;
+  }
+  .sec3 img{
+    width: 200px;
+    border-radius: 25px;
+  }
+  .sec3-one h3{
+    color: white;
+    font-size: 20px;
+  }
+  
+  .rims-p{
+  
+  padding-right: 100px;
+    padding-top: 65px;
+  }
+  .sec3 button{
+    margin-top: 10px;
+    border: none;
+    width: 150px;
+    font-size: 10px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: dimgrey;
+  }
+  .sec3 p{
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+  }
+  footer section a{
+    text-decoration: none;
+    color: #373737;
+    display: block;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    
+  }
+  footer section h3{
+    color:#252B42 ;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+  }
+  footer{
+    padding-right: 100px;
+  }
+}
+@media screen and 
+(max-width: 1200px){
+  .img-center{
+    width: 400px;
+  }
+}
+@media screen and 
+(max-width: 700px){
+  nav a{
+    font-size:12px ;
+  }
+  .list{
+    list-style: none;
+  display: flex;
+  gap: 5px;
+  }
+  li{
+    margin-right: 10px;
+  }
+  .img-center{
+    width: 100px;
+  }
+  .para h1{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .para {
+    text-align: center;
+    padding-top: 20px;
+    padding-right:5px;
+  }
+  
+  .button button{
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    border: 5px;
+    font-size: 10px;
+  }
+.button button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1) ;
+    transition: 0.5s;
+}
+.slide-show{
+      position: relative;
+      top: 30px;
+      margin-top: 100px;
+}
+div .sec3  {
+  justify-content: space-around;
+}
+.sec3 img{
+    width: 200px;
+    border-radius: 25px;
+}
+  .sec3-one h3{
+    color: white;
+    font-size: 20px;
+  }
+  
+  .rims-p{
+  
+  padding-right: 100px;
+    padding-top: 65px;
+  }
+  .sec3 button{
+    margin-top: 10px;
+    border: none;
+    width: 150px;
+    font-size: 10px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: dimgrey;
+  }
+  .sec3 p{
+    margin-top: 10px;
+    color: white;
+    font-size: 10px;
+  }
+  footer section a{
+    text-decoration: none;
+    color: #373737;
+    display: block;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    
+  }
+  footer section h3{
+    color:#252B42 ;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+  }
+  footer{
+    padding-right: 100px;
+  }
+
+}
+@media screen and 
+(max-width: 900px){
+  }
+  footer{
+    padding-right: 100px;
+  }
+  .para h1{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+  .para {
+    display: inline-block;
+
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+    left: 60px;
+    padding-left: px;
+  }
+  .img-center{
+    position: relative;
+    left: 60px;
+  }
+
